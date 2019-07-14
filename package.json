@@ -1,0 +1,16 @@
+{
+  "name": "PuppeteerQs",
+  "version": "1.0.0",
+  "description": "Capture QlikSense charts and sheets via Puppeteer",
+  "scripts": {
+    "start": "node puppeteer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Henrik Amnäs, MBI",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.16.0",
+    "express": "^4.13.4",
+    "request": "^2.69.0"
+  }
+}

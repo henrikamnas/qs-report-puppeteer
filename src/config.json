@@ -1,0 +1,9 @@
+{
+    "engineHost": "https://[YOUR SERVER]",
+    "userDirectory": "sa",
+    "userId": "repository",
+    "certificatesPath": "C:/projects/PuppeteerQs/server",
+    "port": 1337,
+    "unsecure": false,
+    "headless": false
+}
