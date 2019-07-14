@@ -10,7 +10,7 @@ GET **/static/images/** - returns the image with a given name
 
 ### Installing
 
-`cd PuppeteerQs`
+`cd qs-report-puppeteer`
 
 `npm install`
 
@@ -24,7 +24,7 @@ The parameter awaitdiw takes a div element from the DOM and waits for it to fini
 ### Qlik Sense Service Dispatcher Integration
 
 * Copy the files manually with admin priviliges into  
-```C:\Program Files\Qlik\Sense\ServiceDispatcher\Node\PuppeteerQs\```  
+```C:\Program Files\Qlik\Sense\ServiceDispatcher\Node\qs-report-puppeteer\```  
 
 * Then append the following configuration options to  
 ```C:\Program Files\Qlik\Sense\ServiceDispatcher\services.conf```  
@@ -37,7 +37,7 @@ Enabled=true
 DisplayName=puppeteerqs
 ExecType=nodejs
 ExePath=Node\node.exe
-Script=Node\PuppeteerQs\server\server.js
+Script=Node\qs-report-puppeteer\server\server.js
 
 [puppeteerqs.parameters]
 ```
