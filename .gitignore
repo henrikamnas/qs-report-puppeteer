@@ -1,7 +1,6 @@
 *.pem
-*config.json
-.config.json
-images/*
+./public/images/*
+./src/config.json
 
 # Logs
 logs
