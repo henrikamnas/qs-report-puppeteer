@@ -1,8 +1,8 @@
 {
-    "engineHost": "https://[YOUR SERVER]",
-    "userDirectory": "sa",
-    "userId": "repository",
-    "certificatesPath": "C:/projects/PuppeteerQs/server",
+    "engineHost": "https://qliksense.wsc.gant",
+    "userDirectory": "wsc",
+    "userId": "henrik.amnas",
+    "certificatesPath": "C:/projects/qs-report-puppeteer/server",
     "port": 1337,
     "unsecure": false,
     "headless": false

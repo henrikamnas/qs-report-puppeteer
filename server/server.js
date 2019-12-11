@@ -69,7 +69,7 @@ app.get('/capture/awaitdiv/:div/filename/:filename/width/:width/height/:height/u
                 const browser = await puppeteer.launch({headless: config.headless, ignoreHTTPSErrors: true});
                 const page = await browser.newPage();
                  await page.setViewport({ width: parseInt(req.params.width,10), height: parseInt(req.params.height,10)});
-                await page.goto('https://' + req.url.split('/url/')[1].split('/')[1] +'/hub?qlikTicket=' + ticket,{waitUntil: 'load'}); //authenticate user with ticket
+                await page.goto('https://' + req.url.split('/url/')[1].split('/')[2] +'/hub?qlikTicket=' + ticket,{waitUntil: 'load'}); //authenticate user with ticket
                 await page.goto(req.url.split('/url/')[1],{waitUntil: 'load'}); //load the suppliead url from the get request
                 await page.waitFor(req.params.div) //wait for an element to finish loading, supplied by parameter awaitdiv
                 await page.screenshot({path: path.join(__dirname, '../public/images/',req.params.filename)}); //take screenshot and save to /public/images            
