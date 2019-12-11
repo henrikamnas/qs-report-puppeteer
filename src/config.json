@@ -1,5 +1,5 @@
 {
-    "engineHost": "https://your",
+    "engineHost": "https://your_server",
     "userDirectory": "ad",
     "userId": "user",
     "certificatesPath": "C:/projects/qs-report-puppeteer/server",
