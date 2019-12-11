@@ -1,5 +1,5 @@
 *.pem
-config.json
+*config.json
 
 # Logs
 logs
@@ -16,7 +16,6 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
-images
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
