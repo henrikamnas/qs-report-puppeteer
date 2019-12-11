@@ -1,5 +1,5 @@
 *.pem
-./public/images/*
+# ./public/images/*
 ./src/config.json
 
 # Logs
